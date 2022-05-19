@@ -22,7 +22,7 @@ gem "puma", "~> 5.0"
 # gem "kredis"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
-# gem "bcrypt", "~> 3.1.7"
+gem "bcrypt", "~> 3.1.7"
 
 ## Additional GEMS
 gem 'activeadmin'
@@ -36,8 +36,8 @@ gem 'cloudinary'
 
 gem 'country_select', require: 'country_select_without_sort_alphabetical'
 
-gem 'devise'
-gem "figaro"
+# gem 'devise'
+# gem "figaro"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
