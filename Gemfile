@@ -25,10 +25,10 @@ gem "puma", "~> 5.0"
 # gem "bcrypt", "~> 3.1.7"
 
 ## Additional GEMS
-gem 'rack-cors'
-gem 'jwt'
 gem 'activeadmin'
 gem 'active_model_serializers'
+gem 'jwt'
+gem 'rack-cors'
 gem 'seed_dump'
 
 gem 'carrierwave'
@@ -38,7 +38,6 @@ gem 'country_select', require: 'country_select_without_sort_alphabetical'
 
 gem 'devise'
 gem "figaro"
-
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
