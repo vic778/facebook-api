@@ -6,6 +6,9 @@ Rails.application.routes.draw do
       post 'auth/login', to: 'session#login'
       get 'users/:id', to: 'users#show'
       put 'users/:id', to: 'users#update'
+      get 'users', to: 'users#show'
+      post 'users/info', to: 'user_infos#create'
+      put 'users/info/:id', to: 'user_infos#update'
     end
   end
 end
