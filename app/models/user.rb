@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   has_many :user_infos
+  has_many :posts
 
   has_secure_password
 
