@@ -33,7 +33,7 @@ class Api::V1::UserInfosController < ApplicationController
   private
 
   def set_user_info
-    @user_info = @user.userInfos.find(params[:id])
+    @user_info = @user.user_infos.find(params[:id])
   end
 
   def user_info_params
