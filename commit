@@ -1,0 +1,12 @@
+
+- Add comment association
+- Has many comment
+- Add comment
+- Serialize comment to user
+- Add routes for comment
+- Migrate user_id to comment table
+- Find user and post before crete the comment
+- Create the comment table
+- Generate the serializer for cmment and make association to user and post
+- Add foren to coment
+- Create test
